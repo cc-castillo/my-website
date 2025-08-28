@@ -29,7 +29,7 @@ export async function generateMetadata() {
 export default function Home() {
   return (
     <Column maxWidth="m"
-        mobileDirection="row" 
+        mobileDirection="column" 
         horizontal="center">
       <Schema
         as="webPage"
