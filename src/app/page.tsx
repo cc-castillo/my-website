@@ -87,7 +87,6 @@ export default function Home() {
                 {social.map(
                   (item) =>
                     item.link && (
-            
                         <React.Fragment key={item.name}>
                             <Button
                                 className="s-flex-hide"
