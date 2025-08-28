@@ -125,15 +125,15 @@ export default function Home() {
                 {home.title}
                 <Line background="accent-alpha-weak" marginTop="8" fillWidth/>
               </Heading>
-</TiltFx>
+    </TiltFx>
               <Column fillWidth gap="l">
                 {home.work.experiences.map((experience, index) => (
-                  <Column key={`${experience.company}-${experience.role}-${index}`} marginLeft="64">
+                  <Column key={`${experience.company}-${experience.role}-${index}`} marginLeft="48">
                     <Flex fillWidth horizontal="space-between" vertical="end" marginBottom="4">
                       <Text id={experience.company} variant="heading-strong-l">
                         {experience.company}
                       </Text>
-                      <Text variant="heading-default-xs" onBackground="accent-medium" marginRight="80">
+                      <Text variant="heading-default-xs" onBackground="accent-medium" marginRight="64">
                         {experience.timeframe}
                       </Text>
                     </Flex>
@@ -177,7 +177,7 @@ export default function Home() {
                     <Column
                       as="ul"
                       key={`${skill}-${index}`}
-                      marginLeft="80"
+                      marginLeft="64"
                     >
                       <Text
                         as="li"
