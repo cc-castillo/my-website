@@ -40,8 +40,8 @@ const home: Home = {
       <>
         Hi! I'm Christina, a software engineer specializing in backend systems and cloud infrastructure.
         Since I was a child, I have been fascinated by the internet and how technology shapes our world. I remember rushing home from school to redesign
-        MySpace page and connecting with friends online. Many years later, this has evolved into a career that allows me to build impacful systems and explore the 
-        possibilities of software development.
+        my MySpace page or finding new ways to connect with friends online. This curiosity has evolved into a career that allows me to build impacful systems and explore the 
+        possibilities of software.
         <br></br>
             <br></br>
         In addition to losing track of time on the computer, I enjoy traveling, photography and spending time with my dog, Rey.
