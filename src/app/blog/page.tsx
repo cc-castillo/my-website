@@ -18,6 +18,7 @@ export default function Blog() {
       <Schema
         as="blogPosting"
         baseURL={baseURL}
+        title={blog.title}
         description={blog.description}
         path={blog.path}
         image={`/api/og/generate?title=${encodeURIComponent(blog.title)}`}
