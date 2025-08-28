@@ -18,6 +18,7 @@ import React from "react";
 
 export async function generateMetadata() {
   return Meta.generate({
+    title: home.title,
     description: home.description,
     baseURL: baseURL,
     image: `/api/og/generate?title=${encodeURIComponent(home.title)}`,
@@ -33,6 +34,7 @@ export default function Home() {
       <Schema
         as="webPage"
         baseURL={baseURL}
+        title="Home"
         description={home.description}
         path={home.path}
         image={`/api/og/generate?title=${encodeURIComponent(home.title)}`}
