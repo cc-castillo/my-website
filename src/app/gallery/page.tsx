@@ -4,6 +4,7 @@ import { baseURL, photography, person } from "@/resources";
 
 export async function generateMetadata() {
   return Meta.generate({
+    title: photography.title,
     description: photography.description,
     baseURL: baseURL,
     image: `/api/og/generate?title=${encodeURIComponent(photography.title)}`,
@@ -17,6 +18,7 @@ export default function Photography() {
       <Schema
         as="webPage"
         baseURL={baseURL}
+        title="Photography"
         description={photography.description}
         path={photography.path}
         image={`/api/og/generate?title=${encodeURIComponent(photography.title)}`}
